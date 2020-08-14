@@ -166,8 +166,8 @@ body {
   transition: all 0.5s;
 }
 .button:hover {
-  background-color: #04c2c9;
-  border-color: #04c2c9;
+  background-color: #e91e4d;
+  border-color: #e91e4d;
 }
 .button .mdi {
   vertical-align: middle;
@@ -199,7 +199,7 @@ body {
 }
 
 .hexagon {
-  background-color: #04c2c9;
+  background-color: #e91e4d;
   display: inline-block;
   height: 100%;
   width: calc(100% * 0.57735);
@@ -261,7 +261,7 @@ nav {
   left: 0;
   position: absolute;
   background: #1b242f;
-  border-bottom: 3px solid #04c2c9;
+  border-bottom: 3px solid #e91e4d;
   height: 50px;
   text-align: left;
   width: 100%;
@@ -531,7 +531,7 @@ section:nth-of-type(2) .bullet-wrap {
   padding: 0 7px;
 }
 section:nth-of-type(2) .highlight {
-  color: #009ada;
+  color: #e91e4d;
 }
 section:nth-of-type(2) .up-arrow {
   height: 30px;
@@ -613,7 +613,7 @@ section:nth-of-type(2) .bar.fill {
   left: 0;
   position: absolute;
   top: 0;
-  background-color: #00a1a7;
+  background-color: #aa0536;
   opacity: 1;
   padding: 0;
 }
@@ -621,7 +621,7 @@ section:nth-of-type(2) .bar .tag {
   left: 0;
   position: absolute;
   top: 0;
-  background-color: #04c2c9;
+  background-color: #e91e4d;
   color: #fff;
   height: 100%;
   width: 110px;
@@ -822,7 +822,7 @@ section:nth-of-type(4) .blog-wrap.fade .fade-wrap {
   opacity: 0.4;
 }
 section:nth-of-type(4) .blog-wrap.hover .fade-wrap .label {
-  color: #04c2c9;
+  color: #e91e4d;
 }
 section:nth-of-type(4) .label {
   font-size: 12pt;
@@ -839,7 +839,7 @@ section:nth-of-type(4) .date {
   margin: 5px 0 0 0;
 }
 section:nth-of-type(4) .bar {
-  background: #04c2c9;
+  background: #e91e4d;
   height: 3px;
   margin: 10px 0px;
   width: 25%;
@@ -863,7 +863,7 @@ section:nth-of-type(5) .header-bar {
   width: 110px;
 }
 section:nth-of-type(5) .highlight {
-  color: #04c2c9;
+  color: #E91e63;
   font-weight: 600;
 }
 section:nth-of-type(5) svg {
@@ -903,7 +903,7 @@ section:nth-of-type(5) .button {
   padding: 10px 30px;
 }
 section:nth-of-type(5) .button:hover {
-  background: #04c2c9;
+  background: #e91e4d;
 }
 section:nth-of-type(5) #success {
   height: 0;
@@ -974,7 +974,7 @@ footer .icon-wrap .mdi.mdi-codepen {
   font-size: 20pt;
 }
 footer .icon-wrap .icon:hover {
-  background: #04c2c9;
+  background: #e91e4d;
   box-shadow: 0 0 0 3px rgba(4, 94, 201, 0.1);
   transform: scale(0.9);
 }
@@ -1741,4 +1741,117 @@ h3,p {
   background: #cc005f;
 }
 
+
 /*# sourceMappingURL=style.css.map */
+@media screen and (max-width:350px) {
+  #portfolio{
+    margin-bottom: -180%;
+  }
+}
+@media screen and (min-width:351px) and (max-width:640px) {
+  #portfolio{
+    margin-bottom: -860px;
+    line-height: 1pt;
+    
+  }
+}
+
+@media screen and (min-width:411px) and (max-width:731px)  {
+  #portfolio{
+    margin-bottom: -350px;
+    line-height: 2pt;
+    
+  }
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+  section:nth-of-type(3) #resume {
+    margin-bottom:90rem!important;
+  }
+}
+@media screen and (min-width:770px) and (max-width:1024px) {
+  section:nth-of-type(3) #resume {
+    margin-bottom:20rem!important;
+    line-height: 2pt;
+  }
+  section:nth-of-type(1) .text {
+    font-size: 3.9rem;
+    line-height: 1.3;
+  }
+  .button {
+    font-size: 19pt;
+  }
+  section:nth-of-type(1) .button {
+    padding: 16px 60px 16px 30px;
+  }
+  nav .link-wrap div {
+    display: inline;
+    font-size: larger;
+    margin: 0 20px;
+    padding: initial;
+  }
+  section:nth-of-type(2) {
+    font-size: 22px;
+    line-height: 1.3;
+  }
+  .label {
+    font-size: 19pt;
+  }
+  section:nth-of-type(2) .bars-wrap {
+    margin: 0 0 0 0;
+    margin-top: 50px;
+  }
+  #resume .resume-header h2 {
+    font-size:2.5rem;
+    line-height: 1.3;
+  }
+  #resume .timeline-header h3 {
+    font-size: 1.7rem;
+    line-height: 1.1;
+  }
+  #resume .timeline-header p {
+    font-size: 1.42rem;
+  }
+  h3,p {
+    font-size: 1.6rem;
+    line-height: 1.1;
+  }
+  #resume .timeline-content h4 {
+    position: relative;
+    padding-bottom: 1.3rem;
+    font-size: 1.5rem;
+  }
+  #resume .timeline-ico {
+    height: 3.3rem;
+    width: 3.3rem;
+    line-height: 3.3rem;
+    background: #313131;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    left: 40%;
+    top: 0.9rem;
+    margin-left: -1.5rem;
+  }
+  .fa-building:before {
+    content: "\f1ad";
+    font-size: 25px;
+  }
+  .fa-laptop:before {
+    content: "\f109";
+    font-size: 25px;
+  }
+  .fa-graduation-cap:before {
+    content: "\f19d";
+    font-size: 25px;
+  }
+  .fa-laptop-code:before {
+    content: "\f5fc";
+    font-size: 25px;
+  }
+}
+
+
+
+
+
