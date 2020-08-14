@@ -1017,6 +1017,16 @@ footer .footnote .highlight {
   }
 }
 
+
+@media screen and (orientation:landscape) and (min-width: 651px) and (max-width:680px) {
+  section:nth-of-type(3) #resume {
+    margin-bottom: 157rem!important;
+
+  
+  }
+}
+
+
 @media only screen and (orientation:landscape) and (min-width:630px) and (max-width:650px){
   section:nth-of-type(3) #resume {
     margin-bottom: 126rem!important;
